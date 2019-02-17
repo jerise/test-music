@@ -9,7 +9,6 @@ const simpleytapi = require('simple-youtube-api')
 const youtube = new simpleytapi(YT_API_KEY);
 const data = JSON.parse('{}');
 const adminprefix = '!'
-const Baron = new Discord.Client();
 const fs = require("fs");
 const db = require('quick.db')
 const ms = require('ms')
